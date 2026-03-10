@@ -1,0 +1,29 @@
+{
+  "Logistic Regression": {
+    "solver": "lbfgs",
+    "max_iter": 1000
+  },
+  "Decision Tree": {
+    "max_depth": 3,
+    "min_samples_leaf": 5
+  },
+  "Random Forest": {
+    "max_depth": 5,
+    "n_estimators": 100
+  },
+  "XGBoost": {
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "n_estimators": 100
+  },
+  "LightGBM": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "n_estimators": 200
+  },
+  "MLP Neural Network": {
+    "layers": "128-128-64",
+    "alpha": 0.001,
+    "lr": 0.001
+  }
+}
